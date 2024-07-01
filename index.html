@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<style>
+  *{
+     margin:0;
+     padding:0; 
+   }
+  .main{
+     width: 100%;
+     background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),url(https://i.pinimg.com/564x/d3/ce/b9/d3ceb974f4b5cc7f574e842915d4a95c.jpg);
+     background-position: center;
+     background-size: cover;
+     height: 100vh;  
+   } 
+   .navbar{
+     width: 1200px;
+     height: 75px;
+     margin: auto;
+   }
+   
+   .icon{
+     width: 200px;
+     float: left;
+     height: 70px;
+   }
+   
+   .logo{
+     color: #0f1505;
+     font-size: 35px;
+     font-family: Arial;
+     padding-left: 20px;
+     float: left;
+     padding-top: 10px;
+     
+   }
+
+
+
+</style>
+
+<div class="main">
+<div class="navbar">
+<div class="icon">
+<h2 class="logo">Voter Registration</h2>
+</div>
+</div>
+</div>
+<form action="Insert" method="Post">
+        <table>
+        <tr>
+            <td><label>Name :</label> </td>
+            <td><input type="text" name="name"></td>
+        </tr>
+        <tr>
+            <td>Lastname :</td>
+            <td><input type="text" name="lastname"></td>   
+        </tr>
+        <tr>
+            <td>Password :</td>
+            <td><input type="text" name="password"></td>   
+        </tr>
+        <tr>
+            <td>Age :</td>
+            <td><input type="text" name="age"></td>   
+        </tr>
+        <tr>
+            <td>Location :</td>
+            <td><input type="text" name="location"></td>   
+        </tr>
+        <tr>
+            <td>Country :</td>
+            <td><input  type="text" name="country"></td>    
+        </tr>
+      <tr>
+            <td>
+                <button type="submit" name="btn" value="insert" >Register</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="submit" name="btn" value="login">Login</button>
+            </td>
+        </tr>
+    </table>
+    </form>
+    <button><a href = 'display.jsp'>Display</a></button>
+    
+</body>
+</html>
